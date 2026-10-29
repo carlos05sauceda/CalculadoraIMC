@@ -1,10 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import IMC from './Component/IMC';
+import CategoriaIMC from './Component/CategoriaIMC';
+
 
 export default function App() {
+
+ 
+
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
+      <Text>Calculadora de IMC</Text>
+      <IMC></IMC>
+      
+      
       <StatusBar style="auto" />
     </View>
   );
