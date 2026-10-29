@@ -26,14 +26,7 @@ export default function CategoriaIMC ({Peso, Altura}) {
     
 
 
-    function Categoria () {
-        if (IMC<18.5) {
-            <Text>Usted está bajo de peso!!</Text>
-        }
-        
-    }
 
-      
    
 
 
